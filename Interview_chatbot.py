@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 
 def generate_openai_feedback(user_responses):
     feedback = openai.Completion.create(
